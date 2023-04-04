@@ -1,10 +1,14 @@
 import React from 'react';
-import InfoCard from './components/Main';
+import Main from './components/Main';
+import Left from './components/Left';
+import Right from './components/Right';
 
 function App() {
   return (
     <div className="App">
-      <InfoCard />
+      <Main />
+      <Left />
+      <Right />
     </div>
   );
 }
