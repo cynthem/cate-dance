@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="App">
       <Main />
-      <Left />
-      <Right />
+      <div className='footer'>
+        <Left />
+        <Right />
+      </div>
     </div>
   );
 }
