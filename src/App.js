@@ -1,5 +1,5 @@
 import React from 'react';
-import InfoCard from './components/InfoCard';
+import InfoCard from './components/Main';
 
 function App() {
   return (
