@@ -1,9 +1,9 @@
 import React from 'react';
 
-function InfoCard() {
+function Main() {
     return (
-        <div className='info-card'>testing</div>
+        <div className='main'>testing</div>
     );
 }
 
-export default InfoCard;
+export default Main;
