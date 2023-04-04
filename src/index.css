@@ -81,19 +81,26 @@ body {
 }
 
 .App {
-    display: grid;
-    grid-template: 50vh 50vh / 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .main {
-    grid-column: span 2;
     background-color: #DC3E26;
+    height: 90vh;
+}
+
+.footer {
+    display: flex;
+    height: 50vh;
 }
 
 .left {
     background-color: #EDCD44;
+    width: 50vw;
 }
 
 .right {
     background-color: #81CAD6;
+    width: 50vw;
 }
