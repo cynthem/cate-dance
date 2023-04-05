@@ -137,8 +137,7 @@ h3 {
 
 .left-content {
     font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin: 20px 20px 30px 40px;
     color: rgb(47, 106, 116);
     font-size: 17px;
 }
@@ -152,6 +151,30 @@ h3 {
 .left-content > ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 30px;
+}
+
+.left-content > .rate,
+.left-content > .link {
+    margin-top: 25px;
+}
+
+.left-content > .lesson-text-2 {
+    color: rgb(47, 106, 116);
+    font-size: 16px;
+}
+
+.left-content > .link,
+.left-content > .address  {
+    text-align: center;
+}
+
+.left-content > .address  {
+    margin-bottom: 25px;
+}
+
+.lesson-text-1 > a {
+    margin-left: 6px;
 }
 
 .right {
@@ -170,4 +193,5 @@ h2 {
     letter-spacing: 1px;
     font-size: 50px;
     margin-top: 10px;
+    padding-bottom: 20px;
 }
