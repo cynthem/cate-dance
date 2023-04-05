@@ -25,8 +25,7 @@ function Right() {
                         href='tel:2062404372'
                     >
                         (206) 240-4372
-                    </a> 
-                    to schedule a lesson.
+                    </a> to schedule a lesson.
                 </p>
                 <motion.a
                     href='https://www.instagram.com/cateloose'
