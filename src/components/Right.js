@@ -22,21 +22,21 @@ function Right() {
             <h2>About</h2>
             <div className='contact'>
                 <p className='phone'>Call <span>(206) 240-4372</span> to schedule a lesson.</p>
-                <a
+                <motion.a
                     href='https://www.instagram.com/cateloose'
                     target="_blank"
                     rel="noopener noreferrer"
+                    ariants={animateIcon}
+                    initial="rest"
+                    whileHover="hover"
+                    whileTap="tap"
+                    animate="rest"
                 >
-                    <motion.img 
+                    <img 
                         alt='Instagram icon'
                         src={insta}
-                        ariants={animateIcon}
-                        initial="rest"
-                        whileHover="hover"
-                        whileTap="tap"
-                        animate="rest"
                     />
-                </a>
+                </motion.a>
             </div>
             <div className='credentials'>
                 <p className='cred-text'>As a life-long dancer, some of my experience includes:</p>
