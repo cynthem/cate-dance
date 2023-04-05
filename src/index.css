@@ -342,5 +342,54 @@ h2 {
 }
 
 @media (max-width: 600px) {
-    
+    h1 {
+        font-size: 72px;
+    }
+    .images > img {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 550px) {
+    .main {
+        margin-bottom: -50px;
+    }
+    .headings {
+        top: -70px;
+        right: 20px;
+    }
+    .images > img {
+        width: 100px;
+    }
+    .left-content > ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding-top: 30px;
+    }
+    .headings {
+        top: -80px;
+        right: 10px;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    .images > img {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 430px) {
+    .main {
+        margin-bottom: -60px;
+    }
+    .header {
+        height: 300px;
+    }
+    .images > img {
+        width: 80px;
+    }
 }
