@@ -78,6 +78,7 @@ body {
     overscroll-behavior-x: none;
     overscroll-behavior-y: none;
     cursor: default;
+    font-family: 'Abril Fatface', serif;
 }
 
 .App {
@@ -88,19 +89,31 @@ body {
 .main {
     background-color: #DC3E26;
     height: 90vh;
+    color: #EDCD44;
+    font-size: 50px;
+    letter-spacing: 1px;
 }
 
 .footer {
     display: flex;
     height: 50vh;
+    font-size: 30px;
+    letter-spacing: 0.5px;
 }
 
 .left {
     background-color: #EDCD44;
     width: 50vw;
+    color: #559faa;
 }
 
 .right {
     background-color: #81CAD6;
     width: 50vw;
+    color: #DC3E26;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 14px;
 }
