@@ -1,10 +1,22 @@
 import React from 'react';
+import { motion } from "framer-motion"
 import smile from '../assets/images/smile.png';
 import yoga from '../assets/images/yoga.png';
 import dip from '../assets/images/dip.png';
 import salsa from '../assets/images/salsa.png';
 
 function Main() {
+    const animateImg = {
+        rest: {
+            scale: 1,
+            transition: { duration: 0.5 }
+        },
+        hover: {
+            scale: 1.2,
+            transition: { duration: 0.5 }
+        }
+    }
+
     return (
         <div className='main'>
             <div className='header'>
@@ -13,9 +25,13 @@ function Main() {
                     <h3>Dance & Yoga Instructor</h3>
                 </div>
                 <div className='images'>
-                    <img 
+                    <motion.img 
                         alt='Partnered dancing'
                         src={smile}
+                        variants={animateImg}
+                        initial="rest"
+                        whileHover="hover"
+                        animate="rest"
                     />
                     <img 
                         alt='Salsa dancing'
