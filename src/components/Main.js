@@ -33,17 +33,29 @@ function Main() {
                         whileHover="hover"
                         animate="rest"
                     />
-                    <img 
+                    <motion.img 
                         alt='Salsa dancing'
                         src={salsa}
+                        variants={animateImg}
+                        initial="rest"
+                        whileHover="hover"
+                        animate="rest"
                     />
-                    <img 
+                    <motion.img 
                         alt='Deep dancing dip'
                         src={dip}
+                        variants={animateImg}
+                        initial="rest"
+                        whileHover="hover"
+                        animate="rest"
                     />
-                    <img 
+                    <motion.img 
                         alt='Yoga pose'
                         src={yoga}
+                        variants={animateImg}
+                        initial="rest"
+                        whileHover="hover"
+                        animate="rest"
                     />
                 </div>
             </div>
