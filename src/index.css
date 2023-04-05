@@ -209,6 +209,7 @@ h3 {
 
 .contact > a > img {
     width: 40px;
+    display: inline-block;
 }
 
 .credentials {

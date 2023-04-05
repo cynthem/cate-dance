@@ -26,7 +26,7 @@ function Right() {
                     href='https://www.instagram.com/cateloose'
                     target="_blank"
                     rel="noopener noreferrer"
-                    ariants={animateIcon}
+                    variants={animateIcon}
                     initial="rest"
                     whileHover="hover"
                     whileTap="tap"
