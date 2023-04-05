@@ -101,11 +101,12 @@ body {
     align-items: center;
     height: 500px;
     margin-top: 70px;
+    width: 100vw;
 }
 
 .headings {
     position: absolute;
-    right: 50px;
+    left: 40vw;
     top: -40px;
 }
 
@@ -118,6 +119,10 @@ h3 {
     font-weight: 400;
     font-style: italic;
     font-size: 28px;
+}
+
+.images {
+    margin: 0 auto;
 }
 
 .images > img {
@@ -263,6 +268,9 @@ h2 {
 }
 
 @media (max-width: 1160px) {
+    .headings {
+        left: 35vw;
+    }
     .left-content > ul {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -276,7 +284,7 @@ h2 {
         height: 400px;
     }
     .headings {
-        right: -20px;
+        left: 32vw;
         top: -40px;
     }
     .images > img {
@@ -285,11 +293,7 @@ h2 {
 }
 
 @media (max-width: 850px) {
-    .headings {
-        right: 40px;
-    }
     h1 {
-        letter-spacing: 3px;
         font-size: 90px;
     }
     h3 {
@@ -302,10 +306,11 @@ h2 {
         height: 340px;
     }
     .headings {
-        right: -30px;
+        left: 30vw;
     }
     h1 {
         font-size: 82px;
+        letter-spacing: 1px;
     }
     .images > img {
         width: 120px;
@@ -331,7 +336,7 @@ h2 {
 
 @media (max-width: 650px) {
     .headings {
-        right: 0px;
+        left: 28vw;
     }
     h1 {
         font-size: 76px;
@@ -345,6 +350,9 @@ h2 {
     h1 {
         font-size: 72px;
     }
+    h3 {
+        text-align: end;
+    }
     .images > img {
         margin-right: 15px;
     }
@@ -355,8 +363,7 @@ h2 {
         margin-bottom: -50px;
     }
     .headings {
-        top: -70px;
-        right: 20px;
+        left: 20vw;
     }
     .images > img {
         width: 100px;
@@ -366,13 +373,13 @@ h2 {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .main {
         padding-top: 30px;
     }
     .headings {
         top: -80px;
-        right: 10px;
+        left: 6vw;
     }
     h1 {
         font-size: 70px;
@@ -391,16 +398,15 @@ h2 {
         height: 250px;
     }
     .headings {
-        right: 0px;
+        left: 10vw;
         top: -65px;
     }
     h1 {
-        font-size: 60px;
-        letter-spacing: 1px;
+        font-size: 56px;
+        letter-spacing: 0px;
     }
     h3 {
         font-size: 20px;
-        text-align: end;
     }
     .images > img {
         width: 80px;
@@ -423,13 +429,14 @@ h2 {
 }
 
 @media (max-width: 350px) {
+    .headings {
+        left: 4vw;
+    }
     h1 {
         font-size: 57px;
-        letter-spacing: 0px;
     }
     h3 {
         font-size: 20px;
-        text-align: end;
     }
     .images > img {
         width: 70px;
