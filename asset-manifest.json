@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cate-dance/static/css/main.d50c7cbd.css",
+    "main.css": "/cate-dance/static/css/main.4a99d8df.css",
     "main.js": "/cate-dance/static/js/main.90e2519e.js",
     "static/js/787.b7749888.chunk.js": "/cate-dance/static/js/787.b7749888.chunk.js",
     "static/media/dip.png": "/cate-dance/static/media/dip.80e0ba20af12564c59a5.png",
@@ -34,12 +34,12 @@
     "static/media/poppins-v20-latin-regular.woff2": "/cate-dance/static/media/poppins-v20-latin-regular.405055dd680fa1dcdfa2.woff2",
     "static/media/poppins-v20-latin-800.woff2": "/cate-dance/static/media/poppins-v20-latin-800.ca6a92cea2062ebec667.woff2",
     "index.html": "/cate-dance/index.html",
-    "main.d50c7cbd.css.map": "/cate-dance/static/css/main.d50c7cbd.css.map",
+    "main.4a99d8df.css.map": "/cate-dance/static/css/main.4a99d8df.css.map",
     "main.90e2519e.js.map": "/cate-dance/static/js/main.90e2519e.js.map",
     "787.b7749888.chunk.js.map": "/cate-dance/static/js/787.b7749888.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d50c7cbd.css",
+    "static/css/main.4a99d8df.css",
     "static/js/main.90e2519e.js"
   ]
 }
