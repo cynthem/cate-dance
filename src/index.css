@@ -203,6 +203,10 @@ h3 {
     color: rgb(25, 25, 202);
 }
 
+.contact > a {
+    display: inline-block;
+}
+
 .contact > a > img {
     width: 40px;
 }
