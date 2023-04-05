@@ -236,6 +236,10 @@ h3 {
     letter-spacing: 0.5px;
 }
 
+.copyright > span {
+    font-size: 18px;
+}
+
 h2 {
     text-align: center;
     letter-spacing: 1px;
