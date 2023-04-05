@@ -21,11 +21,12 @@ function Right() {
         <div className='right'>
             <h2>About</h2>
             <div className='contact'>
-                <p className='phone'>Call <a
+                <p className='phone'>Call <motion.a
                         href='tel:2062404372'
+                        whileHover={{ color: '#F7F6F7' }}
                     >
                         (206) 240-4372
-                    </a> to schedule a lesson.
+                    </motion.a> to schedule a lesson.
                 </p>
                 <motion.a
                     href='https://www.instagram.com/cateloose'
