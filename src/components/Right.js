@@ -6,7 +6,7 @@ function Right() {
         <div className='right'>
             <h2>About</h2>
             <div className='contact'>
-                <p>Call <span>(206) 240-4372</span> to schedule a lesson</p>
+                <p className='phone'>Call <span>(206) 240-4372</span> to schedule a lesson.</p>
                 <a
                     href='https://www.instagram.com/cateloose'
                     target="_blank"
