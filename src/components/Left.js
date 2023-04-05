@@ -14,8 +14,8 @@ function Left() {
                     <li>Swing</li>
                     <li>Polka</li>
                     <li>Waltz</li>
-                    <li>General partner work</li>
                     <li>Yoga</li>
+                    <li>General partner work</li>
                 </ul>
             </div>
         </div>
