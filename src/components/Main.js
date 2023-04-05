@@ -1,5 +1,6 @@
 import React from 'react';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import { WindupChildren, Pace, Pause } from "windups";
 import smile from '../assets/images/smile.png';
 import yoga from '../assets/images/yoga.png';
 import dip from '../assets/images/dip.png';
@@ -21,8 +22,15 @@ function Main() {
         <div className='main'>
             <div className='header'>
                 <div className='headings'>
-                    <h1>Cate Curtis</h1>
-                    <h3>Dance & Yoga Instructor</h3>
+                    <WindupChildren>
+                        <Pace getPace={(char) => (char === " " ? 100 : 40)}>
+                            <h1>Cate Curtis</h1>
+                        </Pace>
+                        <Pause ms={300} />
+                        <Pace getPace={(char) => (char === " " ? 200 : 70)}>
+                            <h3>Dance & Yoga Instructor</h3>
+                        </Pace>
+                    </WindupChildren>
                 </div>
                 <div className='images'>
                     <motion.img 
