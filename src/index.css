@@ -127,7 +127,6 @@ h3 {
 
 .middle {
     display: flex;
-    height: 50vh;
     font-size: 30px;
     letter-spacing: 0.5px;
 }
