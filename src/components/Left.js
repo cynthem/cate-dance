@@ -17,9 +17,9 @@ function Left() {
                     <li>Yoga</li>
                     <li>General partner work</li>
                 </ul>
-                <p className='lesson-text'>Lessons are tailored to your needs, whether that is learning a new style, improving your current skills, or preparing for a special event.</p>
-                <p className='lesson-text'>If you don't have a particular dance in mind, I'm happy to recommend styles that will best meet your needs.</p>
-                <p className='lesson-text'>
+                <p className='lesson-text-1'>Lessons are tailored to your needs, whether that is learning a new style, improving your current skills, or preparing for a special event.</p>
+                <p className='lesson-text-2'>If you don't have a particular dance in mind, I'm happy to recommend styles that will best meet your needs.</p>
+                <p className='lesson-text-1'>
                     Our first lesson will take place at 
                     <a 
                         href='https://www.dancecenterchicago.com'
@@ -30,14 +30,14 @@ function Left() {
                     </a>
                     :
                 </p>
-                <p className='lesson-text address'>
+                <p className='lesson-text-2 address'>
                     3868 N Lincoln Ave.
                     <br/>
                     2nd Floor
                     <br/>
                     Chicago, IL 60613</p>
-                <p className='lesson-text'>All following lessons can take place in home or at an agreed upon location.</p>
-                <p className='lesson-text'>My rate is $60 per hour for singles and couples.</p>
+                <p className='lesson-text-1'>All following lessons can take place in home or at an agreed upon location.</p>
+                <p className='lesson-text-2'>My rate is $60 per hour for singles and couples.</p>
             </div>
         </div>
     );
