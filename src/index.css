@@ -176,7 +176,7 @@ h3 {
 }
 
 .lesson-text-2 > a {
-    margin-left: 6px;
+    display: inline-block;
 }
 
 .right {
