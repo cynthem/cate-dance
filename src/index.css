@@ -191,6 +191,10 @@ h3 {
     font-family: 'Poppins', sans-serif;
 }
 
+.contact > a > img {
+    width: 40px;
+}
+
 .bottom {
     background-color: #6A7D7E;
     height: 100px;
