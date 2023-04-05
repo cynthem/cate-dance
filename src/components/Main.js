@@ -9,6 +9,7 @@ function Main() {
         <div className='main'>
             <div className='header'>
                 <h1>Cate Curtis</h1>
+                <h3>Dance & Yoga Instructor</h3>
                 <div className='images'>
                     <img 
                         alt='Partnered dancing'
