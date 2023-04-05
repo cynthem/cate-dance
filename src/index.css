@@ -384,12 +384,77 @@ h2 {
 
 @media (max-width: 430px) {
     .main {
-        margin-bottom: -60px;
+        margin-bottom: -35px;
+        padding-top: 10px;
     }
     .header {
-        height: 300px;
+        height: 250px;
+    }
+    .headings {
+        right: 0px;
+        top: -65px;
+    }
+    h1 {
+        font-size: 60px;
+        letter-spacing: 1px;
+    }
+    h3 {
+        font-size: 20px;
+        text-align: end;
     }
     .images > img {
         width: 80px;
+        margin-right: 2px;
+    }
+    .left-content {
+        margin: 20px 10px 30px 10px;
+    }
+    .left-content > ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .credentials {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .contact > .phone {
+        margin: 20px 10px 0px 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 57px;
+        letter-spacing: 0px;
+    }
+    h3 {
+        font-size: 20px;
+        text-align: end;
+    }
+    .images > img {
+        width: 70px;
+        margin-right: 5px;
+    }
+    h2 {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 310px) {
+    .header {
+        height: 220px;
+    }
+    .headings {
+        right: 10px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .images > img {
+        width: 60px;
+        margin-right: 2px;
+    }
+    h2 {
+        font-size: 42px;
     }
 }
