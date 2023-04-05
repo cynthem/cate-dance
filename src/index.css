@@ -201,6 +201,7 @@ h3 {
 
 .phone > a {
     color: rgb(25, 25, 202);
+    text-decoration: none;
 }
 
 .contact > a {
