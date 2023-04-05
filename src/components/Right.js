@@ -18,6 +18,19 @@ function Right() {
                     />
                 </a>
             </div>
+            <div className='credentials'>
+                <p className='cred-text'>As a life-long dancer, some of my experience includes:</p>
+                <ul className='cred-list'>
+                    <li>15+ years of ballet & jazz</li>
+                    <li>Social dancing since 2005</li>
+                    <li>Yoga certified</li>
+                    <li>3 years of burlesque</li>
+                    <li>2 years of belly dance</li>
+                    <li>5+ years powerlifting</li>
+                    <li>2 years distance running</li>
+                </ul>
+            </div>
+            <p className='sendoff-text'>Don't hesitate to reach out if I can answer any questions or help you with your dancing goals!</p>
         </div>
     );
 }
