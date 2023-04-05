@@ -125,7 +125,7 @@ h3 {
     margin-right: 25px;
 }
 
-.footer {
+.middle {
     display: flex;
     height: 50vh;
     font-size: 30px;
@@ -147,4 +147,9 @@ h3 {
 h2 {
     text-align: center;
     margin-top: 14px;
+}
+
+.bottom {
+    background-color: #DC3E26;
+    height: 100px;
 }
