@@ -229,7 +229,11 @@ h3 {
 
 .bottom {
     background-color: #6A7D7E;
-    height: 40px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5px;
 }
 
 h2 {
