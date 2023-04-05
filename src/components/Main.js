@@ -8,8 +8,10 @@ function Main() {
     return (
         <div className='main'>
             <div className='header'>
-                <h1>Cate Curtis</h1>
-                <h3>Dance & Yoga Instructor</h3>
+                <div className='headings'>
+                    <h1>Cate Curtis</h1>
+                    <h3>Dance & Yoga Instructor</h3>
+                </div>
                 <div className='images'>
                     <img 
                         alt='Partnered dancing'
