@@ -23,7 +23,7 @@ function Right() {
             <div className='contact'>
                 <p className='phone'>Call <motion.a
                         href='tel:2062404372'
-                        whileHover={{ color: '#F7F6F7' }}
+                        whileHover={{ color: '#5dd597' }}
                     >
                         (206) 240-4372
                     </motion.a> to schedule a lesson.
