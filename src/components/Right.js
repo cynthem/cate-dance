@@ -1,7 +1,22 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import insta from '../assets/images/instagram.png';
 
 function Right() {
+    const animateIcon = {
+        rest: {
+            scale: 1,
+            transition: { duration: 0.5 }
+        },
+        hover: {
+            scale: 1.2,
+            transition: { duration: 0.5 }
+        },
+        tap: {
+            scale: 0.9
+        }
+    }
+
     return (
         <div className='right'>
             <h2>About</h2>
@@ -12,9 +27,14 @@ function Right() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img 
+                    <motion.img 
                         alt='Instagram icon'
                         src={insta}
+                        ariants={animateIcon}
+                        initial="rest"
+                        whileHover="hover"
+                        whileTap="tap"
+                        animate="rest"
                     />
                 </a>
             </div>
