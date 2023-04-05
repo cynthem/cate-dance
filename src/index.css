@@ -196,7 +196,7 @@ h3 {
 }
 
 .contact > .phone {
-    margin-top: 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 .phone > a {
@@ -229,7 +229,7 @@ h3 {
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-size: 17px;
-    margin-top: 40px;
+    margin: 40px 20px 0px;
 }
 
 .bottom {
@@ -251,4 +251,96 @@ h2 {
     font-size: 50px;
     margin-top: 10px;
     padding-bottom: 20px;
+}
+
+
+/* MOBILE STYLES */
+
+@media (max-width: 1280px) {
+    .left-content > ul {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .left-content > ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sendoff-text {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 950px) {
+    .header {
+        height: 400px;
+    }
+    .headings {
+        right: -20px;
+        top: -40px;
+    }
+    .images > img {
+        width: 160px;
+    }
+}
+
+@media (max-width: 850px) {
+    .headings {
+        right: 40px;
+    }
+    h1 {
+        letter-spacing: 3px;
+        font-size: 90px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 750px) {
+    .header {
+        height: 340px;
+    }
+    .headings {
+        right: -30px;
+    }
+    h1 {
+        font-size: 82px;
+    }
+    .images > img {
+        width: 120px;
+    }
+    .middle {
+        flex-direction: column;
+    }
+    .left, 
+    .right {
+        width: 100vw;
+    }
+    .left-content > ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    h2 {
+        padding-bottom: 10px;
+    }
+    .sendoff-text {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .headings {
+        right: 0px;
+    }
+    h1 {
+        font-size: 76px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    
 }
