@@ -127,8 +127,6 @@ h3 {
 
 .middle {
     display: flex;
-    font-size: 30px;
-    letter-spacing: 0.5px;
 }
 
 .left {
@@ -137,18 +135,40 @@ h3 {
     color: #559faa;
 }
 
+.left-content {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgb(47, 106, 116);
+    font-size: 17px;
+}
+
+.left-content > p {
+    margin-bottom: 5px;
+    color: rgb(41, 96, 106);
+    font-size: 18px;
+}
+
+.left-content > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
 .right {
     background-color: #81CAD6;
     width: 50vw;
     color: #DC3E26;
 }
 
-h2 {
-    text-align: center;
-    margin-top: 14px;
-}
-
 .bottom {
     background-color: #DC3E26;
     height: 100px;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin-top: 10px;
 }
