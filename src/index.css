@@ -87,8 +87,8 @@ body {
 }
 
 .main {
-    background-color: #DC3E26;
-    color: #EDCD44;
+    background-color: #284D68;
+    color: #5dd597;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -130,21 +130,21 @@ h3 {
 }
 
 .left {
-    background-color: #EDCD44;
+    background-color: #5dd597;
     width: 50vw;
-    color: #559faa;
+    color: #F7F6F7;
 }
 
 .left-content {
     font-family: 'Poppins', sans-serif;
     margin: 20px 20px 30px 40px;
-    color: rgb(47, 106, 116);
+    color: rgb(53, 113, 123);
     font-size: 17px;
 }
 
 .left-content > p {
     margin-bottom: 5px;
-    color: rgb(41, 96, 106);
+    color: #284D68;
     font-size: 18px;
 }
 
@@ -160,7 +160,7 @@ h3 {
 }
 
 .left-content > .lesson-text-2 {
-    color: rgb(47, 106, 116);
+    color: #284D68;
     font-size: 16px;
 }
 
@@ -171,20 +171,22 @@ h3 {
 
 .left-content > .address  {
     margin-bottom: 25px;
+    color: rgb(53, 113, 123);
+    font-size: 18px;
 }
 
-.lesson-text-1 > a {
+.lesson-text-2 > a {
     margin-left: 6px;
 }
 
 .right {
-    background-color: #81CAD6;
+    background-color: #F7F6F7;
     width: 50vw;
-    color: #DC3E26;
+    color: #284D68;
 }
 
 .bottom {
-    background-color: #DC3E26;
+    background-color: #6A7D7E;
     height: 100px;
 }
 

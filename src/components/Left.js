@@ -18,8 +18,8 @@ function Left() {
                     <li>General partner work</li>
                 </ul>
                 <p className='lesson-text-2'>Lessons are tailored to your needs, whether that is learning a new style, improving your current skills, or preparing for a special event. If you don't have a particular dance in mind, I'm happy to recommend styles that will best meet your needs.</p>
-                <p className='lesson-text-1 rate'>My rate is $60 per hour for singles and couples.</p>
-                <p className='lesson-text-1 link'>
+                <p className='lesson-text-2 rate'>My rate is $60 per hour for singles and couples.</p>
+                <p className='lesson-text-2 link'>
                     Our first lesson will take place at 
                     <a 
                         href='https://www.dancecenterchicago.com'
