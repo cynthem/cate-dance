@@ -21,11 +21,11 @@ function Right() {
         <div className='right'>
             <h2>About</h2>
             <div className='contact'>
-                <p className='phone'>Call <motion.a
-                        href='tel:2062404372'
+                <p className='phone'>Email <motion.a
+                        href='mailto:cate.gc@gmail.com'
                         whileHover={{ color: '#5dd597' }}
                     >
-                        (206) 240-4372
+                        cate.gc@gmail.com
                     </motion.a> to schedule a lesson.
                 </p>
                 <motion.a
