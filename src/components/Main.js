@@ -31,7 +31,7 @@ function Main() {
                 </div>
                 <div className='images'>
                     <motion.img 
-                        alt='Partnered dancing'
+                        alt='Dance class'
                         src={smile}
                         variants={animateImg}
                         initial="rest"
@@ -39,7 +39,7 @@ function Main() {
                         animate="rest"
                     />
                     <motion.img 
-                        alt='Salsa dancing'
+                        alt='Salsa dance'
                         src={salsa}
                         variants={animateImg}
                         initial="rest"
@@ -47,7 +47,7 @@ function Main() {
                         animate="rest"
                     />
                     <motion.img 
-                        alt='Deep dancing dip'
+                        alt='Tango dance'
                         src={dip}
                         variants={animateImg}
                         initial="rest"
@@ -55,7 +55,7 @@ function Main() {
                         animate="rest"
                     />
                     <motion.img 
-                        alt='Yoga pose'
+                        alt='Yoga class'
                         src={yoga}
                         variants={animateImg}
                         initial="rest"
