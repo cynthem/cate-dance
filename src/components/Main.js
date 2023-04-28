@@ -31,6 +31,7 @@ function Main() {
                 </div>
                 <div className='images'>
                     <motion.img 
+                        className='large-img'
                         alt='Dance class'
                         src={smile}
                         variants={animateImg}
