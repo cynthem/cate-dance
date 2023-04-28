@@ -127,7 +127,12 @@ h3 {
 
 .images > img {
     width: 200px;
+    height: 200px;
     margin-right: 25px;
+}
+
+.images > .large-img {
+    height: 336px;
 }
 
 .middle {
@@ -289,6 +294,10 @@ h2 {
     }
     .images > img {
         width: 160px;
+        height: 160px;
+    }
+    .images > .large-img {
+        height: 269px;
     }
 }
 
@@ -314,6 +323,10 @@ h2 {
     }
     .images > img {
         width: 120px;
+        height: 120px;
+    }
+    .images > .large-img {
+        height: 202px;
     }
     .middle {
         flex-direction: column;
@@ -367,6 +380,10 @@ h2 {
     }
     .images > img {
         width: 100px;
+        height: 100px;
+    }
+    .images > .large-img {
+        height: 168px;
     }
     .left-content > ul {
         grid-template-columns: repeat(2, 1fr);
@@ -410,7 +427,11 @@ h2 {
     }
     .images > img {
         width: 80px;
+        height: 80px;
         margin-right: 2px;
+    }
+    .images > .large-img {
+        height: 134px;
     }
     .left-content {
         margin: 20px 10px 30px 10px;
@@ -440,7 +461,11 @@ h2 {
     }
     .images > img {
         width: 70px;
+        height: 70px;
         margin-right: 5px;
+    }
+    .images > .large-img {
+        height: 118px;
     }
     h2 {
         font-size: 46px;
@@ -459,7 +484,11 @@ h2 {
     }
     .images > img {
         width: 60px;
+        height: 60px;
         margin-right: 2px;
+    }
+    .images > .large-img {
+        height: 101px;
     }
     h2 {
         font-size: 42px;
