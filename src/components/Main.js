@@ -25,7 +25,7 @@ function Main() {
                     <WindupChildren>
                         <Pace ms={40}>
                             <h1>Cate Curtis</h1>
-                            <h2 className='headings-title'>Dance & Yoga Instructor</h2>
+                            <h2 id='headings-title'>Dance & Yoga Instructor</h2>
                         </Pace>
                     </WindupChildren>
                 </div>
