@@ -5,13 +5,11 @@ function Left() {
     const animateLink = {
         rest: {
             scale: 1,
-            color: 'blue',
             transition: { duration: 0.5 }
         },
         hover: {
             scale: 1.1,
             x: '10px',
-            color: '#F7F6F7', 
             transition: { duration: 0.5 }
         },
         tap: {
