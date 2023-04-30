@@ -224,7 +224,7 @@ h1 {
     font-size: 20px;
 }
 
-h2 {
+.left-header, .right-header {
     text-align: center;
     letter-spacing: 1px;
     font-size: 50px;
@@ -237,7 +237,6 @@ h2 {
     font-weight: 400;
     font-style: italic;
     font-size: 28px;
-    text-align: right;
 }
 
 
