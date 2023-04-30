@@ -21,7 +21,7 @@ function Left() {
 
     return (
         <div className='left'>
-            <h2>Lessons</h2>
+            <h2 className='left-header'>Lessons</h2>
             <div className='left-content'>
                 <p className='list-descriptor'>Many styles to choose from:</p>
                 <ul>
