@@ -281,7 +281,7 @@ h1 {
     h1 {
         font-size: 90px;
     }
-    h3 {
+    #headings-title {
         font-size: 24px;
     }
 }
@@ -314,7 +314,7 @@ h1 {
     .left-content > ul {
         grid-template-columns: repeat(3, 1fr);
     }
-    h2 {
+    .left-header, .right-header {
         padding-bottom: 10px;
     }
     .sendoff-text {
@@ -330,7 +330,7 @@ h1 {
     h1 {
         font-size: 76px;
     }
-    h3 {
+    #headings-title {
         font-size: 24px;
     }
 }
@@ -339,7 +339,7 @@ h1 {
     h1 {
         font-size: 72px;
     }
-    h3 {
+    #headings-title {
         text-align: end;
     }
     .images > img {
@@ -398,7 +398,7 @@ h1 {
         font-size: 56px;
         letter-spacing: 0px;
     }
-    h3 {
+    #headings-title {
         font-size: 20px;
     }
     .images > img {
@@ -432,7 +432,7 @@ h1 {
     h1 {
         font-size: 57px;
     }
-    h3 {
+    #headings-title {
         font-size: 20px;
     }
     .images > img {
@@ -443,7 +443,7 @@ h1 {
     .images > .large-img {
         height: 118px;
     }
-    h2 {
+    .left-header, .right-header {
         font-size: 46px;
     }
 }
@@ -466,7 +466,7 @@ h1 {
     .images > .large-img {
         height: 101px;
     }
-    h2 {
+    .left-header, .right-header {
         font-size: 42px;
     }
 }
