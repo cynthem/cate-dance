@@ -155,6 +155,9 @@ h1 {
 
 .lesson-text-2 > a {
     display: inline-block;
+    color: #F7F6F7;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .right {
@@ -198,7 +201,7 @@ h1 {
 }
 
 .cred-list > li {
-    color: rgb(53, 113, 123);
+    color: #005a2c;
     font-size: 16px;
     margin-top: 5px;
 }
