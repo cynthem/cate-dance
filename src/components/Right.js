@@ -19,7 +19,7 @@ function Right() {
 
     return (
         <div className='right'>
-            <h2>About</h2>
+            <h2 className='right-header'>About</h2>
             <div className='contact'>
                 <p className='phone'>Email <motion.a
                         href='mailto:cate.gc@gmail.com'
