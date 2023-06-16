@@ -149,6 +149,8 @@ h1 {
 
 #zoom {
     margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
     color: #F7F6F7;
     font-size: 18px;
 }
