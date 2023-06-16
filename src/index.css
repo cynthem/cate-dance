@@ -153,13 +153,6 @@ h1 {
     font-size: 18px;
 }
 
-.lesson-text-2 > a {
-    display: inline-block;
-    color: #F7F6F7;
-    font-weight: bold;
-    font-style: italic;
-}
-
 .right {
     background-color: #F7F6F7;
     width: 50vw;
